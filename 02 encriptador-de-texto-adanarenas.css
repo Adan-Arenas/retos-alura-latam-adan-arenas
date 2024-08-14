@@ -1,0 +1,238 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+  
+}
+
+body{
+    background-color:#E9ECF8;
+    color: rgb(76, 91, 231);
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+header{
+    position: absolute;
+    margin: 0px 0px 0px 150px;
+}
+
+/*
+header .LogoAlura{
+    display: flex;
+    align-items: flex-start;
+    width: 120px;
+    height: 48px;
+}
+*/
+
+.parrafohumanidad{
+    color: rgba(13, 17, 19, 0.784);
+}
+.Presentacion{
+    display: flex;
+    align-items: center;
+    margin: 10% 35%;
+    justify-content: space-between;
+
+}
+.PresentacionContenido {
+    width: 720px;
+ 
+}
+
+
+
+/* acá empezó*/ 
+.Presentacion{
+    width: 60%;
+    margin: 168px 0px 0px 140px;
+    background: transparent;}
+
+.encriptar{
+    width: 660px;
+    height: 288px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    outline: none;
+    border: 1px solid var(--Greey);
+    border-radius: 15px;
+    resize: none;
+}
+::placeholder,:focus{
+    color: rgb(75, 42, 165);
+    font-size: 22px;}
+
+.DiseñoBotones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+    position: absolute;
+    top: 650px;
+}
+
+.DiseñoBotones1{
+    display: flex;
+    background-color: rgb(106, 0, 255);
+    color: white;    
+    justify-content: space-between;
+    border-radius: 22px;
+    padding: 20px 85px;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;   
+    color: var(--White);
+    background: var(--Dark-Blue);
+    border: 1px solid var(--Dark-Blue);
+    box-shadow: 0px 20px 29px -5px var(--RGBA); 
+}
+
+.DiseñoBotones2{
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    color: black;    
+    justify-content: space-between;
+    border-radius: 22px;
+    padding: 20px 120px;
+    width: 328px;
+    height: 67px;
+    cursor: pointer;
+    font-size: 16px;
+    text-align: center;
+    background: var(--White-Blue);
+    border: 1px solid var(--Dark-Blue);
+    box-shadow: 0px 20px 29px -5px var(--RGBA); 
+}
+
+.Figura{
+    width: 350px;
+    height: 520px;
+    background: var(--Font);
+    box-shadow: 20px 24px 32px -8px var(--Gray);
+    position: relative;
+    margin-top: 40px;
+    border-radius: 35px;
+    text-align: center;
+    
+}
+
+
+.FiguraLupa{
+    width:350px;
+    margin: auto;
+    margin-top: 20%;
+    background: var(--Font);
+}
+
+
+
+.texto1{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+    text-align: center;
+    color: var(--Gray);
+    background: var(--Font);
+}
+
+
+.texto2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: var(--Medium-Gray);
+    background: var(--Font);
+}
+
+.evaluar{
+    width: 100%;
+    height: 485px;
+    position: absolute;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+    color: var(--Gree);
+    background: transparent;
+    border-top-right-radius: 32px;
+    border-top-left-radius: 32px;
+    border: none;
+    resize: none;
+}
+
+.evaluar:focus{
+    outline: none;
+}
+.btn-copiar{
+    width: 224px;
+    height: 67px;
+    margin: 23px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    padding: 24px;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    background: var(--White-Blue);
+    border: 1px solid var(--Dark-Blue);
+    border-radius: 20px;
+    cursor: pointer;
+    color: black;
+}
+
+.DiseñoBotones1:hover,
+.DiseñoBotones2:hover,
+.btn-copiar:hover{
+    transform: scale(0.97);
+}
+
+footer{
+    margin-top: 15px;
+    padding: 10px;
+    border-top: 2px solid var(--Font);
+    color: var(--Gray);
+    text-align: center;
+    height: 5px;
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--Gray);
+}
+
+.linked{
+  width: 33px;
+
+ 
+
+}
+
+.Github{
+    width: 33px;
+    
+ 
+}
+
+:root{
+    --Font:#E5E5E5;
+    --White:#FFFFFF;
+    --Dark-Blue:#0A3871;
+    --Greey:#C5C5C5;
+    --Medium-Gray:#67808E;
+    --RGBA:rgba(0,0,0,0.08);
+    --White-Blue:#D8DFE8;
+    --Medium-Blue:#0a38718a;
+    --Gray:#343A40;
+    --Gree:#495057;
+}
+

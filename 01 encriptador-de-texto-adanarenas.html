@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto Adan</title>
+    <link rel="stylesheet" href="02 encriptador-de-texto-adanarenas.css">
+</head>
+<body>
+    <header>
+    <img src="LogoAlura.png" alt="Imagen LogoAlura" class="LogoAlura">
+    <h2>Adan Arenas</h2>
+    </header>
+    <main class="Presentacion">
+    <section class="PresentacionContenido">
+    <h1>Encriptador de Texto</h1>
+    <p>Elaboré este encriptador de texto para ayudar a la <strong class="parrafohumanidad">Comunidad</strong></p>
+    <textarea class="encriptar" placeholder="Escriba el texto con minúsculas y sin signos"></textarea>
+    <div class="DiseñoBotones">
+    <BUtton class="DiseñoBotones1" onclick="encryptText()">Encriptar</BUtton>
+    <button class="DiseñoBotones2" onclick="decryptText()">Desencriptar</button>
+    </div>
+    </section>
+    <section class="Figura">
+    <div class="FiguraLupa">
+    <img src="MuñecoLupa.png" class="MuñecoLupa"  alt="Imagen enlupamiento">
+    <p class="texto1">Ningún mensaje fue encontrado</p>
+    <p class="texto2">Respuesta del texto encriptado o desencriptado</p>
+    </div>
+    <textarea type="mensaje" class="evaluar" readonly></textarea>
+    <button type="submit" class="btn-copiar">Copiar</button>
+    </div>
+    </section>
+    </main>
+    <footer>
+    <div class="EnlacesRedesSociales">
+    <p class="copyright">&copy; Copyright 2024</p>
+    <a href="#" rel="">
+    <img src="Logogithub.png" alt="Logo Github" class="Github">
+    </a>
+    <a href="#" rel="">
+    <img src="LogoLinkedin.png" alt="Logo Linkedin" class="linked">
+    </a>
+    </div>
+    </footer>
+    <script src="encriptador.js"></script>
+</body>
+</html>
